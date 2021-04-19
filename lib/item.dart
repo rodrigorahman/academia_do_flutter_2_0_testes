@@ -11,9 +11,8 @@ class Item {
     if (identical(this, other)) return true;
   
     return other is Item &&
-      other.nome == nome;
-      //  &&
-      // other.preco == preco;
+      other.nome == nome &&
+      other.preco == preco;
   }
 
   @override
